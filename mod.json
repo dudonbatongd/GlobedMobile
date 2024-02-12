@@ -1,0 +1,39 @@
+{
+    "geode": "2.0.0-beta.15",
+    "version": "v1.0.0",
+    "gd": {
+        "win": "2.204",
+        "android": "2.205",
+        "mac": "2.200"
+    },
+    "resources": {
+        "spritesheets": {
+            "globedsheet1": [
+                "resources/menuicon.png",
+                "resources/speaker-icon.png"
+            ]
+        }
+    },
+    "id": "dudonbatongd.GlobedMobile",
+    "name": "Globed Mobile",
+    "developer": "dudonbatongd",
+    "description": "Feature-rich multiplayer mod for Geometry Dash",
+    "dependencies": [
+        {
+            "id": "weebify.restartbtn",
+            "version": ">=v1.0.2",
+            "importance": "required"
+        }
+    ],
+    "incompatibilities": [
+        {
+            "id": "thesillydoggo.moretags",
+            "importance": "breaking",
+            "version": "*"
+        }
+    ],
+    "repository": "https://github.com/dudonbatongd/GlobedMobile/tree/main",
+    "tags": [
+        "Online"
+    ]
+}
